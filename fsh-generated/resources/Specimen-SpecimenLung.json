@@ -1,0 +1,59 @@
+{
+  "resourceType": "Specimen",
+  "id": "SpecimenLung",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/example/StructureDefinition/us-pathology-specimen"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://example.org",
+      "value": "specimen875758555"
+    }
+  ],
+  "accessionIdentifier": {
+    "system": "http://example.org",
+    "value": "specimen875758555"
+  },
+  "status": "available",
+  "type": {
+    "coding": [
+      {
+        "code": "122604009",
+        "system": "http://snomed.info/sct",
+        "display": "Specimen from lung obtained by wedge resection (specimen)"
+      }
+    ]
+  },
+  "collection": {
+    "method": {
+      "coding": [
+        {
+          "code": "173172000",
+          "system": "http://snomed.info/sct",
+          "display": "Excision of segment of lung (procedure)"
+        }
+      ]
+    },
+    "bodySite": {
+      "coding": [
+        {
+          "code": "44714003",
+          "system": "http://snomed.info/sct",
+          "display": "Structure of upper lobe of left lung (body structure)"
+        }
+      ]
+    }
+  },
+  "container": [
+    {
+      "id": "L12345",
+      "identifier": [
+        {
+          "system": "http://example.org"
+        }
+      ]
+    }
+  ]
+}
