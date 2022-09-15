@@ -4,7 +4,9 @@ This FHIR repository contains the following resources:
 
 * Sample Patient Meredith
 * Sample Practitioner Riki
-* MelanomaBundleEx containing a full Cancer Pathology Bundle for Registry Submission
+* MelanomaBundleEx containing a full Cancer Pathology Bundle for Registry Submission, except for Specimen
+* BreastResBundleEx containing a full Cancer Pathology Bundle for Registry Submission
+* LungBundleEx containing a full Cancer Pathology Bundle for Registry Submission
 * US pathology Specimen Profile
 * Specimen Lung
 * Specimen Breast
