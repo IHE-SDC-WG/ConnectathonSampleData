@@ -12,17 +12,15 @@
       "resource": {
         "resourceType": "MessageHeader",
         "text": {
-          "status": "generated"
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">MessageHeader</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
         },
         "eventCoding": {
           "system": "http://example.org/fhir/message-events",
           "code": "admin-notify"
         },
         "destination": [ {
-          "receiver": {
-            "reference": "Organization/08686",
-            "display": "Rosewood Health"
-          }
+            "endpoint": "http://20.84.81.240:8081/r4/fhir/$process-message"
         } ],
         "sender": {
           "reference": "Organization/IHESDCParser0:",
@@ -61,6 +59,10 @@
       "fullUrl": "urn:uuid:e8e7900b-fb12-4f87-ae38-1aa60886d97b",
       "resource": {
         "resourceType": "Practitioner",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake practitioner</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "http://someIdentifier.com",
           "value": "pathpract1"
@@ -77,6 +79,10 @@
       "fullUrl": "urn:uuid:bae40cae-4048-4707-b066-886e80b05801",
       "resource": {
         "resourceType": "PractitionerRole",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake practitioner role</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "http://someIdentifier.com",
           "value": "pathpractRole1"
@@ -100,6 +106,10 @@
       "fullUrl": "urn:uuid:d4e48193-6b53-4c97-a70e-3bc7248a8022",
       "resource": {
         "resourceType": "Specimen",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake specimen</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "http://someIdentifier.com",
           "value": "specimen875758333"
@@ -293,6 +303,10 @@
       "fullUrl": "urn:uuid:76d03971-914d-4f40-ac7c-1d0877227290",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#43094.100004300"
@@ -326,6 +340,10 @@
       "fullUrl": "urn:uuid:be340bca-6430-4c27-a516-ed67732f95a6",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1.55856.100004300"
@@ -369,6 +387,10 @@
       "fullUrl": "urn:uuid:5b64fc58-3b10-4391-a8ae-fea19c4d9a6a",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#1693.100004300"
@@ -402,6 +424,10 @@
       "fullUrl": "urn:uuid:269840b6-c34d-423b-b187-d2fd7a2fd076",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#41711.100004300"
@@ -435,6 +461,10 @@
       "fullUrl": "urn:uuid:1251938e-e4a0-4be0-9cc2-538f737d8156",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1.54193.100004300"
@@ -478,6 +508,10 @@
       "fullUrl": "urn:uuid:b969db8a-0f98-40b1-ad74-fb65af64d80a",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#43111.100004300"
@@ -511,6 +545,10 @@
       "fullUrl": "urn:uuid:7dcbbfa2-a140-442b-a1da-f3360989a0b3",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#41688.100004300"
@@ -544,6 +582,10 @@
       "fullUrl": "urn:uuid:70d2e23a-2c74-4842-b79c-37a825495762",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#372396.100004300"
@@ -577,6 +619,10 @@
       "fullUrl": "urn:uuid:c3e8d0c8-2be9-4445-b41a-6008c6e5e2b6",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1.379930.100004300"
@@ -620,6 +666,10 @@
       "fullUrl": "urn:uuid:553402da-97a2-4adc-bc60-1ce79e0df878",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#379975.100004300"
@@ -653,6 +703,10 @@
       "fullUrl": "urn:uuid:22dbd254-51fb-4f18-943d-0b4db5290faa",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1.379988.100004300"
@@ -696,6 +750,10 @@
       "fullUrl": "urn:uuid:fd5734e6-f78c-4fa6-af49-05c218297ecc",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#372407.100004300"
@@ -729,6 +787,10 @@
       "fullUrl": "urn:uuid:21e5f33a-b5a1-4ee9-9c33-fe33de01565a",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#356773.100004300"
@@ -762,6 +824,10 @@
       "fullUrl": "urn:uuid:039e4fe3-ae9c-4510-ab43-c934d18ba810",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1.356779.100004300"
@@ -805,6 +871,10 @@
       "fullUrl": "urn:uuid:30d928a9-4565-40ec-8c16-7ed93fac6734",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1.356799.100004300"
@@ -840,6 +910,10 @@
       "fullUrl": "urn:uuid:5cae0f98-f325-44a5-93ca-6ee09b443b42",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#374382.100004300"
@@ -873,6 +947,10 @@
       "fullUrl": "urn:uuid:90a8c2d3-6259-497d-94f7-97b6b6669e15",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#356830.100004300"
@@ -905,6 +983,10 @@
       "fullUrl": "urn:uuid:d766200f-e960-4a38-8e99-3e557c3891ab",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#33448.100004300"
@@ -938,6 +1020,10 @@
       "fullUrl": "urn:uuid:360326ee-e75f-4c99-bf55-5a88c10fc3c7",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1.33426.100004300"
@@ -981,6 +1067,10 @@
       "fullUrl": "urn:uuid:7f5b28a4-2e05-4b1c-8cf2-8df559c9675a",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#33444.100004300"
@@ -1014,6 +1104,10 @@
       "fullUrl": "urn:uuid:902f4183-bb9b-440d-b092-a74840d9f9f0",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#327868.100004300"
@@ -1047,6 +1141,10 @@
       "fullUrl": "urn:uuid:f6b22182-ddc8-473d-bf4a-a1bb1a21191a",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#327870.100004300"
@@ -1080,6 +1178,10 @@
       "fullUrl": "urn:uuid:720b2768-c26a-403c-8483-805077196b6b",
       "resource": {
         "resourceType": "Observation",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">fake Observation</div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>6547</td></tr></tbody></table></div>"
+        },
         "identifier": [ {
           "system": "https://CAP.org/eCC",
           "value": "Lung.Res.119_3.006.001.REL_sdcFDF0e29ec83-3425-4fba-ae01-1b966b0935ca/ver1#47348.100004300"
