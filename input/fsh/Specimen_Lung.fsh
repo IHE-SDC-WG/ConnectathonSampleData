@@ -1,6 +1,6 @@
 //Lung and melanoma for connectathon
 Instance: SpecimenLung
-InstanceOf: USPathologySpecimen
+InstanceOf: Specimen
 Usage: #example
 * identifier.system = "http://example.org"
 * identifier.value = "specimen875758555"

@@ -1,6 +1,6 @@
 //Lung and melanoma for connectathon
 Instance: SpecimenSubLung1
-InstanceOf: USPathologySpecimen
+InstanceOf: Specimen
 Usage: #example
 * identifier.system = "http://example.org"
 * identifier.value = "99108381"
@@ -13,10 +13,8 @@ Usage: #example
 //* collection.collector = ""
 * collection.collectedDateTime = "2022-01-26 16:50:03"
 * collection.method = SCT#173172000 "Excision of segment of lung (procedure)"
-* collection.bodySite = SCT#44714003 "Structure of upper lobe of left lung (body structure)" 
+* collection.bodySite = SCT#127921007 "Structure of segmental lymph node of lung (body structure)" 
 * container.id = "L12346"
 * container.identifier.system = "http://example.org"
-* parent = "specimen875758555"
-//Can update the specimen resource so that includes groups of specimens or just has single specimen with narrative text
-//Current state: specimen with narrative text describing all "sub" speciments
-//Future state: split out specimen 
+* parent.identifier.system = "http://example.org"
+* parent.identifier.value = "specimen875758555"

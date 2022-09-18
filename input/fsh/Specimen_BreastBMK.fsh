@@ -1,5 +1,5 @@
 Instance: SpecimenBreastBMK
-InstanceOf: USPathologySpecimen
+InstanceOf: Specimen
 Usage: #example
 * identifier.system = "http://example.org"
 * identifier.value = "specimen875758333"

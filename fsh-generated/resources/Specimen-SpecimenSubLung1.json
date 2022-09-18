@@ -1,15 +1,15 @@
 {
   "resourceType": "Specimen",
-  "id": "SpecimenLung",
+  "id": "SpecimenSubLung1",
   "identifier": [
     {
       "system": "http://example.org",
-      "value": "specimen875758555"
+      "value": "99108381"
     }
   ],
   "accessionIdentifier": {
     "system": "http://example.org",
-    "value": "specimen875758555"
+    "value": "99108381"
   },
   "status": "available",
   "type": {
@@ -34,21 +34,29 @@
     "bodySite": {
       "coding": [
         {
-          "code": "44714003",
+          "code": "127921007",
           "system": "http://snomed.info/sct",
-          "display": "Structure of upper lobe of left lung (body structure)"
+          "display": "Structure of segmental lymph node of lung (body structure)"
         }
       ]
     }
   },
   "container": [
     {
-      "id": "L12345",
+      "id": "L12346",
       "identifier": [
         {
           "system": "http://example.org"
         }
       ]
+    }
+  ],
+  "parent": [
+    {
+      "identifier": {
+        "system": "http://example.org",
+        "value": "specimen875758555"
+      }
     }
   ]
 }
