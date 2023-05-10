@@ -6,16 +6,6 @@
     "lastUpdated": "2022-04-05T19:29:42.621+00:00",
     "source": "#L7pfVmmVgbN698dz"
   },
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Diagnostics"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://hl7.org/fhir/us/example/StructureDefinition/us-pathology-specimen",
   "version": "0.1.0",
   "name": "USPathologySpecimen",
@@ -134,6 +124,7 @@
           {
             "key": "eQlyknSF",
             "severity": "warning",
+            "human": "US Pathology Specimen Collection information",
             "source": "http://hl7.org/fhir/us/example/StructureDefinition/us-pathology-specimen"
           }
         ]

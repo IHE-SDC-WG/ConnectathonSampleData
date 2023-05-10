@@ -45,4 +45,5 @@ Description: "US Pathology Specimen Resource"
 Severity: #warning
 
 Invariant: eQlyknSF
+Description: "US Pathology Specimen Collection information"
 Severity: #warning
