@@ -4,9 +4,11 @@ Usage: #inline
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 * extension[0].extension[0].url = "ombCategory"
 * extension[=].extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2106-3 "White"
+* extension[=].extension[=].valueString = "White"
 * extension[=].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
 * extension[+].extension[0].url = "ombCategory"
 * extension[=].extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2135-2 "Hispanic or Latino"
+* extension[=].extension[=].valueString = "Hispanic or Latino"
 * extension[=].extension[+].url = "detailed"
 * extension[=].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
 * identifier[0].system = "http://hl7.org/fhir/sid/us-npi"
@@ -48,7 +50,7 @@ Usage: #inline
 Instance: LauraPractitionerRole
 InstanceOf: PractitionerRole
 Usage: #inline
-* meta.profile = "hhttp://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-related-practitioner-role"
+//* meta.profile = "hhttp://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-related-practitioner-role"
 * identifier[0].system = "http://someIdentifier.com"
 * identifier[=].value = "pathpract1"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-npi"

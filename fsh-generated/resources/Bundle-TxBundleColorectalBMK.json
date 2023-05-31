@@ -22,7 +22,8 @@
                   "code": "2106-3",
                   "system": "urn:oid:2.16.840.1.113883.6.238",
                   "display": "White"
-                }
+                },
+                "valueString": "White"
               }
             ],
             "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
@@ -35,7 +36,8 @@
                   "code": "2135-2",
                   "system": "urn:oid:2.16.840.1.113883.6.238",
                   "display": "Hispanic or Latino"
-                }
+                },
+                "valueString": "Hispanic or Latino"
               },
               {
                 "url": "detailed"
@@ -144,11 +146,6 @@
       "resource": {
         "resourceType": "PractitionerRole",
         "id": "LauraPractitionerRole",
-        "meta": {
-          "profile": [
-            "hhttp://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-related-practitioner-role"
-          ]
-        },
         "identifier": [
           {
             "system": "http://someIdentifier.com",
@@ -459,14 +456,14 @@
           {
             "reference": "Observation/urn:uuid:b8fa882f-4ed6-4c2e-bd85-690bdedee29c",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b8fa882f-4ed6-4c2e-bd85-690bdedee29c"
             }
           },
           {
             "reference": "Observation/urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882"
             }
           }
@@ -490,7 +487,7 @@
         "id": "Observation30000",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882"
           }
         ],
@@ -499,7 +496,7 @@
           "coding": [
             {
               "code": "30000.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "MSH2 Result"
             },
             {
@@ -527,7 +524,7 @@
           "coding": [
             {
               "code": "29491.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Intact nuclear expression"
             },
             {
@@ -550,7 +547,7 @@
         "id": "Observation29484",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:b8fa882f-4ed6-4c2e-bd85-690bdedee29c"
           }
         ],
@@ -559,7 +556,7 @@
           "coding": [
             {
               "code": "29484.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "RESULTS"
             }
           ]
@@ -581,7 +578,7 @@
         "hasMember": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882"
             }
           }

@@ -10,7 +10,7 @@ Usage: #example
 * type.coding = v2-0487#TUMOR "Tumor"
 * type.coding = SCT#122604009 "Specimen from lung obtained by wedge resection (specimen)"
 //* collection.collector = ""
-* collection.collectedDateTime = "2022-01-26T16:50:03"
+* collection.collectedDateTime = "2022-01-26T13:28:17-05:00"
 * collection.method = SCT#173172000 "Excision of segment of lung (procedure)"
 * collection.bodySite = SCT#44714003 "Structure of upper lobe of left lung (body structure)" 
 * container.id = "L12345"

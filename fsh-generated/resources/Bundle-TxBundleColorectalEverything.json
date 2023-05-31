@@ -22,7 +22,8 @@
                   "code": "2106-3",
                   "system": "urn:oid:2.16.840.1.113883.6.238",
                   "display": "White"
-                }
+                },
+                "valueString": "White"
               }
             ],
             "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
@@ -35,7 +36,8 @@
                   "code": "2135-2",
                   "system": "urn:oid:2.16.840.1.113883.6.238",
                   "display": "Hispanic or Latino"
-                }
+                },
+                "valueString": "Hispanic or Latino"
               },
               {
                 "url": "detailed"
@@ -144,11 +146,6 @@
       "resource": {
         "resourceType": "PractitionerRole",
         "id": "LauraPractitionerRole",
-        "meta": {
-          "profile": [
-            "hhttp://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-related-practitioner-role"
-          ]
-        },
         "identifier": [
           {
             "system": "http://someIdentifier.com",
@@ -459,84 +456,84 @@
           {
             "reference": "Observation/urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13"
             }
           },
           {
             "reference": "Observation/urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953"
             }
           },
           {
             "reference": "Observation/urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f"
             }
           },
           {
             "reference": "Observation/urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199"
             }
           },
           {
             "reference": "Observation/urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6"
             }
           },
           {
             "reference": "Observation/urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f"
             }
           },
           {
             "reference": "Observation/urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           },
           {
             "reference": "Observation/urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
             }
           },
           {
             "reference": "Observation/urn:uuid:b596b7be-b5b8-4c41-9c7f-5f01ec0d195f",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b596b7be-b5b8-4c41-9c7f-5f01ec0d195f"
             }
           },
           {
             "reference": "Observation/urn:uuid:e1a926f1-3a61-4644-a340-7f04c8fa6390",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:e1a926f1-3a61-4644-a340-7f04c8fa6390"
             }
           },
           {
             "reference": "Observation/urn:uuid:2de27217-d3de-4f1b-8303-5fb493c49216",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:2de27217-d3de-4f1b-8303-5fb493c49216"
             }
           },
           {
             "reference": "Observation/urn:uuid:9063284d-7e0f-4404-90d4-02e037b3a73c",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:9063284d-7e0f-4404-90d4-02e037b3a73c"
             }
           }
@@ -560,7 +557,7 @@
         "id": "ObsTumorSite",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13"
           }
         ],
@@ -569,7 +566,7 @@
           "coding": [
             {
               "code": "49029.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Tumor Site"
             },
             {
@@ -597,7 +594,7 @@
           "coding": [
             {
               "code": "2036.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Sigmoid colon"
             },
             {
@@ -610,7 +607,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -621,7 +618,7 @@
               "coding": [
                 {
                   "code": "2036.100004300",
-                  "system": "https://cap.org/eCC",
+                  "system": "http://cap.org/eCC",
                   "display": "Sigmoid colon"
                 },
                 {
@@ -646,7 +643,7 @@
         "id": "ObsHistologicType",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953"
           }
         ],
@@ -655,7 +652,7 @@
           "coding": [
             {
               "code": "50757.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Histologic Type"
             },
             {
@@ -683,7 +680,7 @@
           "coding": [
             {
               "code": "2059.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Mucinous adenocarcinoma"
             },
             {
@@ -696,7 +693,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -714,7 +711,7 @@
         "id": "ObsHistologicGrade",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f"
           }
         ],
@@ -723,7 +720,7 @@
           "coding": [
             {
               "code": "35916.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Histologic Grade"
             },
             {
@@ -751,7 +748,7 @@
           "coding": [
             {
               "code": "45634.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Not applicable"
             }
           ]
@@ -759,7 +756,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -770,7 +767,7 @@
               "coding": [
                 {
                   "code": "45634.100004300",
-                  "system": "https://cap.org/eCC",
+                  "system": "http://cap.org/eCC",
                   "display": "Not applicable"
                 }
               ]
@@ -790,7 +787,7 @@
         "id": "ObsLymphovascularInvasion",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199"
           }
         ],
@@ -799,7 +796,7 @@
           "coding": [
             {
               "code": "545132.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Lymphovascular Invasion"
             }
           ]
@@ -822,7 +819,7 @@
           "coding": [
             {
               "code": "2099.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Cannot be determined"
             },
             {
@@ -835,7 +832,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -846,7 +843,7 @@
               "coding": [
                 {
                   "code": "2099.100004300",
-                  "system": "https://cap.org/eCC",
+                  "system": "http://cap.org/eCC",
                   "display": "Cannot be determined"
                 },
                 {
@@ -871,7 +868,7 @@
         "id": "ObsMargin",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6"
           }
         ],
@@ -880,7 +877,7 @@
           "coding": [
             {
               "code": "366573.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Margin Status for Invasive Carcinoma"
             }
           ]
@@ -903,7 +900,7 @@
           "coding": [
             {
               "code": "366578.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Not applicable"
             }
           ]
@@ -911,7 +908,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
             }
           }
@@ -929,7 +926,7 @@
         "id": "ObsMarginStatus",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f"
           }
         ],
@@ -938,7 +935,7 @@
           "coding": [
             {
               "code": "366600.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Margin Status for Non-Invasive Tumor"
             }
           ]
@@ -961,7 +958,7 @@
           "coding": [
             {
               "code": "366605.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Not applicable"
             }
           ]
@@ -969,7 +966,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
             }
           }
@@ -987,7 +984,7 @@
         "id": "ObsTumorSection",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
           }
         ],
@@ -996,7 +993,7 @@
           "coding": [
             {
               "code": "16020.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "TUMOR"
             }
           ]
@@ -1018,25 +1015,25 @@
         "hasMember": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199"
             }
           }
@@ -1054,7 +1051,7 @@
         "id": "ObsMarginSection",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
           }
         ],
@@ -1063,7 +1060,7 @@
           "coding": [
             {
               "code": "366572.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "MARGINS"
             }
           ]
@@ -1085,13 +1082,13 @@
         "hasMember": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f"
             }
           }
@@ -1109,7 +1106,7 @@
         "id": "ObsSpecimenSection",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:b596b7be-b5b8-4c41-9c7f-5f01ec0d195f"
           }
         ],
@@ -1118,7 +1115,7 @@
           "coding": [
             {
               "code": "2112.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "SPECIMEN"
             }
           ]
@@ -1150,7 +1147,7 @@
         "id": "ObsAdditionalFinding",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:e1a926f1-3a61-4644-a340-7f04c8fa6390"
           }
         ],
@@ -1159,7 +1156,7 @@
           "coding": [
             {
               "code": "16022.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "ADDITIONAL FINDINGS"
             }
           ]
@@ -1191,7 +1188,7 @@
         "id": "ObsSpecialStudies",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:2de27217-d3de-4f1b-8303-5fb493c49216"
           }
         ],
@@ -1200,7 +1197,7 @@
           "coding": [
             {
               "code": "17823.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "SPECIAL STUDIES (Note H)"
             }
           ]
@@ -1265,84 +1262,84 @@
           {
             "reference": "Observation/urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13"
             }
           },
           {
             "reference": "Observation/urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953"
             }
           },
           {
             "reference": "Observation/urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f"
             }
           },
           {
             "reference": "Observation/urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199"
             }
           },
           {
             "reference": "Observation/urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6"
             }
           },
           {
             "reference": "Observation/urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f"
             }
           },
           {
             "reference": "Observation/urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           },
           {
             "reference": "Observation/urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
             }
           },
           {
             "reference": "Observation/urn:uuid:b596b7be-b5b8-4c41-9c7f-5f01ec0d195f",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b596b7be-b5b8-4c41-9c7f-5f01ec0d195f"
             }
           },
           {
             "reference": "Observation/urn:uuid:e1a926f1-3a61-4644-a340-7f04c8fa6390",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:e1a926f1-3a61-4644-a340-7f04c8fa6390"
             }
           },
           {
             "reference": "Observation/urn:uuid:2de27217-d3de-4f1b-8303-5fb493c49216",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:2de27217-d3de-4f1b-8303-5fb493c49216"
             }
           },
           {
             "reference": "Observation/urn:uuid:9063284d-7e0f-4404-90d4-02e037b3a73c",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:9063284d-7e0f-4404-90d4-02e037b3a73c"
             }
           }
@@ -1366,7 +1363,7 @@
         "id": "Inline-Instance-for-undefined-5",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13"
           }
         ],
@@ -1375,7 +1372,7 @@
           "coding": [
             {
               "code": "49029.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Tumor Site"
             },
             {
@@ -1403,7 +1400,7 @@
           "coding": [
             {
               "code": "2036.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Sigmoid colon"
             },
             {
@@ -1416,7 +1413,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -1427,7 +1424,7 @@
               "coding": [
                 {
                   "code": "2036.100004300",
-                  "system": "https://cap.org/eCC",
+                  "system": "http://cap.org/eCC",
                   "display": "Sigmoid colon"
                 },
                 {
@@ -1452,7 +1449,7 @@
         "id": "Inline-Instance-for-undefined-17",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:9063284d-7e0f-4404-90d4-02e037b3k980"
           }
         ],
@@ -1461,7 +1458,7 @@
           "coding": [
             {
               "code": "1416.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Procedure"
             }
           ]
@@ -1484,7 +1481,7 @@
           "coding": [
             {
               "code": "1428.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Sigmoidectomy"
             },
             {
@@ -1507,7 +1504,7 @@
         "id": "Inline-Instance-for-undefined-6",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953"
           }
         ],
@@ -1516,7 +1513,7 @@
           "coding": [
             {
               "code": "50757.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Histologic Type"
             },
             {
@@ -1544,7 +1541,7 @@
           "coding": [
             {
               "code": "2059.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Mucinous adenocarcinoma"
             },
             {
@@ -1557,7 +1554,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -1575,7 +1572,7 @@
         "id": "Observation1452",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:2be6eee2-b66b-43e2-9f5f-3927434tgg3"
           }
         ],
@@ -1584,7 +1581,7 @@
           "coding": [
             {
               "code": "1452.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Histologic Grade"
             },
             {
@@ -1616,7 +1613,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -1634,7 +1631,7 @@
         "id": "Inline-Instance-for-undefined-7",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f"
           }
         ],
@@ -1643,7 +1640,7 @@
           "coding": [
             {
               "code": "35916.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Histologic Grade"
             },
             {
@@ -1671,7 +1668,7 @@
           "coding": [
             {
               "code": "38054.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "G2, moderately differentiated"
             },
             {
@@ -1684,7 +1681,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -1702,7 +1699,7 @@
         "id": "Inline-Instance-for-undefined-8",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199"
           }
         ],
@@ -1711,7 +1708,7 @@
           "coding": [
             {
               "code": "545134.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Lymphovascular Invasion"
             },
             {
@@ -1739,7 +1736,7 @@
           "coding": [
             {
               "code": "545135.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Present"
             },
             {
@@ -1752,7 +1749,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
             }
           }
@@ -1770,7 +1767,7 @@
         "id": "Inline-Instance-for-undefined-9",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6"
           }
         ],
@@ -1779,7 +1776,7 @@
           "coding": [
             {
               "code": "366573.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Margin Status for Invasive Carcinoma"
             }
           ]
@@ -1802,7 +1799,7 @@
           "coding": [
             {
               "code": "364712.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "All margins negative for invasive carcinoma"
             },
             {
@@ -1815,7 +1812,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
             }
           }
@@ -1833,7 +1830,7 @@
         "id": "Inline-Instance-for-undefined-10",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f"
           }
         ],
@@ -1842,7 +1839,7 @@
           "coding": [
             {
               "code": "364784.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Margin Status for Non-Invasive Tumor"
             }
           ]
@@ -1865,7 +1862,7 @@
           "coding": [
             {
               "code": "364785.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Not applicable"
             }
           ]
@@ -1873,7 +1870,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
             }
           }
@@ -1891,7 +1888,7 @@
         "id": "Inline-Instance-for-undefined-11",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:f9750b1c-3a55-4a2b-8ec2-d311aaddb213"
           }
         ],
@@ -1900,7 +1897,7 @@
           "coding": [
             {
               "code": "16020.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "TUMOR"
             }
           ]
@@ -1922,25 +1919,25 @@
         "hasMember": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:26bc2877-dc39-44e4-87ed-713a9f706a13"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:f93942bf-dd37-4a84-a21c-69a80fb6d953"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:2be6eee2-b66b-43e2-9f5f-39274609e78f"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b13eefac-4fd2-4266-a10a-a7f135fd9199"
             }
           }
@@ -1958,7 +1955,7 @@
         "id": "Observation374360",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:47630420-7ad7-4300-9386-5jh1rj8r1j8f2"
           }
         ],
@@ -1967,7 +1964,7 @@
           "coding": [
             {
               "code": "374360.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Regional lymph nodes present"
             },
             {
@@ -1995,7 +1992,7 @@
           "coding": [
             {
               "code": "356548.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Tumor present in regional lymph node(s)"
             },
             {
@@ -2008,7 +2005,7 @@
         "derivedFrom": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
             }
           }
@@ -2019,7 +2016,7 @@
               "coding": [
                 {
                   "code": "5795.100004300",
-                  "system": "https://cap.org/eCC",
+                  "system": "http://cap.org/eCC",
                   "display": "Exact number (specify)"
                 }
               ]
@@ -2040,7 +2037,7 @@
         "id": "Observation327745",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:47630420-7ad7-4300-9386-71bda08321fv4"
           }
         ],
@@ -2049,7 +2046,7 @@
           "coding": [
             {
               "code": "327745.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "pT Category"
             },
             {
@@ -2077,7 +2074,7 @@
           "coding": [
             {
               "code": "37632.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "pT2: Tumor invades the muscularis propria"
             },
             {
@@ -2100,7 +2097,7 @@
         "id": "Observation327747",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:47630420-7ad7-4300-9386-98t0u2fj2fj2f"
           }
         ],
@@ -2109,7 +2106,7 @@
           "coding": [
             {
               "code": "371494008.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "pN Category"
             },
             {
@@ -2137,7 +2134,7 @@
           "coding": [
             {
               "code": "37632.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "pN1a: One regional lymph node is positive"
             },
             {
@@ -2160,7 +2157,7 @@
         "id": "Observation46170",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:47630420-7ad7-4300-9386-134ufmnf849j3fm"
           }
         ],
@@ -2169,7 +2166,7 @@
           "coding": [
             {
               "code": "46170.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "pM Category"
             },
             {
@@ -2197,7 +2194,7 @@
           "coding": [
             {
               "code": "37648.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Not applicable - pM cannot be determined from the submitted specimen(s)"
             },
             {
@@ -2220,7 +2217,7 @@
         "id": "Observation1486",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf0195775u20"
           }
         ],
@@ -2229,7 +2226,7 @@
           "coding": [
             {
               "code": "1486.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "PATHOLOGIC STAGE CLASSIFICATION (pTNM, AJCC 8th Edition) (Note L)"
             }
           ]
@@ -2251,19 +2248,19 @@
         "hasMember": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:47630420-7ad7-4300-9386-71bda08321fv4"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:47630420-7ad7-4300-9386-98t0u2fj2fj2f"
             }
           },
           {
             "identifier": {
-              "system": "CAP",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:47630420-7ad7-4300-9386-134ufmnf849j3fm"
             }
           }
@@ -2281,7 +2278,7 @@
         "id": "Inline-Instance-for-undefined-12",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
           }
         ],
@@ -2290,7 +2287,7 @@
           "coding": [
             {
               "code": "366572.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "MARGINS"
             }
           ]
@@ -2312,13 +2309,13 @@
         "hasMember": [
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:bddfee62-d62b-4cf7-9454-2eade8317bc6"
             }
           },
           {
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:47630420-7ad7-4300-9386-ab3d4f31231f"
             }
           }
@@ -2336,7 +2333,7 @@
         "id": "Inline-Instance-for-undefined-13",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:b596b7be-b5b8-4c41-9c7f-5f01ec0d195f"
           }
         ],
@@ -2345,7 +2342,7 @@
           "coding": [
             {
               "code": "2112.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "SPECIMEN"
             }
           ]
@@ -2377,7 +2374,7 @@
         "id": "Inline-Instance-for-undefined-14",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:e1a926f1-3a61-4644-a340-7f04c8fa6390"
           }
         ],
@@ -2386,7 +2383,7 @@
           "coding": [
             {
               "code": "16022.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "ADDITIONAL FINDINGS"
             }
           ]
@@ -2418,7 +2415,7 @@
         "id": "Inline-Instance-for-undefined-15",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:2de27217-d3de-4f1b-8303-5fb493c49216"
           }
         ],
@@ -2427,7 +2424,7 @@
           "coding": [
             {
               "code": "17823.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "SPECIAL STUDIES (Note H)"
             }
           ]
@@ -2459,7 +2456,7 @@
         "id": "Inline-Instance-for-undefined-16",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:9063284d-7e0f-4404-90d4-02e037b3a73c"
           }
         ],
@@ -2468,7 +2465,7 @@
           "coding": [
             {
               "code": "381075.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "COMMENTS"
             }
           ]
@@ -2533,14 +2530,14 @@
           {
             "reference": "Observation/urn:uuid:b8fa882f-4ed6-4c2e-bd85-690bdedee29c",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:b8fa882f-4ed6-4c2e-bd85-690bdedee29c"
             }
           },
           {
             "reference": "Observation/urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882",
             "identifier": {
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCP",
               "value": "urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882"
             }
           }
@@ -2564,7 +2561,7 @@
         "id": "Observation30000",
         "identifier": [
           {
-            "system": "https://cap.org/eCC",
+            "system": "http://cap.org/eCP",
             "value": "urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882"
           }
         ],
@@ -2573,7 +2570,7 @@
           "coding": [
             {
               "code": "30000.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "MSH2 Result"
             },
             {
@@ -2601,7 +2598,7 @@
           "coding": [
             {
               "code": "29491.100004300",
-              "system": "https://cap.org/eCC",
+              "system": "http://cap.org/eCC",
               "display": "Intact nuclear expression"
             },
             {

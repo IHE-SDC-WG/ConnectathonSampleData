@@ -132,6 +132,14 @@
       {
         "id": "Specimen.collection.collector",
         "path": "Specimen.collection.collector",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {

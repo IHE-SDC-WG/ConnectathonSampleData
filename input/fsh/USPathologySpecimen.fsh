@@ -24,7 +24,8 @@ Title: "US Pathology Specimen"
 * parent obeys ch3j9pan
 * collection MS
 * collection.extension obeys eQlyknSF
-* collection.collector only Reference($us-pathology-related-practitioner-role)
+//* collection.collector only Reference($us-pathology-related-practitioner-role)
+* collection.collector only Reference(PractitionerRole)
 * collection.collector MS
 * collection.collected[x] 1..1 MS
 * collection.collected[x] only dateTime
