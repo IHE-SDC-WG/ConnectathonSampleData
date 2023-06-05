@@ -24,7 +24,7 @@ Usage: #inline
 * extension.valueCode = MPC#currency
 * eventCoding = http://hl7.org/fhir/us/medmorph/CodeSystem/us-ph-messageheader-message-types#cancer-report-message
 * destination.endpoint = "https://fakedestination.dhec.sc.gov"
-* sender = Reference(Organization/PLACEHOLDER)
+* sender = Reference(Organization/EndoSoftPathologyLab)
 * source.endpoint = "https://fakesource.app.medplum.com"
 * reason = trigdef#new-diagnosis
 

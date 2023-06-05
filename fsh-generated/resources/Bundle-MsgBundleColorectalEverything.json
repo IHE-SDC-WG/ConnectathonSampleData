@@ -50,7 +50,7 @@
           }
         ],
         "sender": {
-          "reference": "Organization/PLACEHOLDER"
+          "reference": "Organization/EndoSoftPathologyLab"
         },
         "source": {
           "endpoint": "https://fakesource.app.medplum.com"
