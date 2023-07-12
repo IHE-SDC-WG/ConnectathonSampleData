@@ -96,7 +96,10 @@
                         "code": "2106-3",
                         "system": "urn:oid:2.16.840.1.113883.6.238",
                         "display": "White"
-                      },
+                      }
+                    },
+                    {
+                      "url": "text",
                       "valueString": "White"
                     }
                   ],
@@ -110,11 +113,11 @@
                         "code": "2135-2",
                         "system": "urn:oid:2.16.840.1.113883.6.238",
                         "display": "Hispanic or Latino"
-                      },
-                      "valueString": "Hispanic or Latino"
+                      }
                     },
                     {
-                      "url": "detailed"
+                      "url": "text",
+                      "valueString": "Hispanic or Latino"
                     }
                   ],
                   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
@@ -653,7 +656,10 @@
                         "code": "2106-3",
                         "system": "urn:oid:2.16.840.1.113883.6.238",
                         "display": "White"
-                      },
+                      }
+                    },
+                    {
+                      "url": "text",
                       "valueString": "White"
                     }
                   ],
@@ -667,11 +673,11 @@
                         "code": "2135-2",
                         "system": "urn:oid:2.16.840.1.113883.6.238",
                         "display": "Hispanic or Latino"
-                      },
-                      "valueString": "Hispanic or Latino"
+                      }
                     },
                     {
-                      "url": "detailed"
+                      "url": "text",
+                      "valueString": "Hispanic or Latino"
                     }
                   ],
                   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
@@ -1807,7 +1813,10 @@
                         "code": "2106-3",
                         "system": "urn:oid:2.16.840.1.113883.6.238",
                         "display": "White"
-                      },
+                      }
+                    },
+                    {
+                      "url": "text",
                       "valueString": "White"
                     }
                   ],
@@ -1821,11 +1830,11 @@
                         "code": "2135-2",
                         "system": "urn:oid:2.16.840.1.113883.6.238",
                         "display": "Hispanic or Latino"
-                      },
-                      "valueString": "Hispanic or Latino"
+                      }
                     },
                     {
-                      "url": "detailed"
+                      "url": "text",
+                      "valueString": "Hispanic or Latino"
                     }
                   ],
                   "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
@@ -2382,7 +2391,7 @@
             }
           },
           {
-            "fullUrl": "urn:uuid:9063284d-7e0f-4404-90d4-02e037b3k980",
+            "fullUrl": "urn:uuid:d1fc8e0b-39ef-447c-9601-b13a2740c692",
             "resource": {
               "resourceType": "Observation",
               "id": "Inline-Instance-for-undefined-17",
@@ -2497,7 +2506,7 @@
             }
           },
           {
-            "fullUrl": "urn:uuid:2be6eee2-b66b-43e2-9f5f-3927434tgg3",
+            "fullUrl": "urn:uuid:e5f5e73e-9b53-4422-9bf0-f2082f30550c",
             "resource": {
               "resourceType": "Observation",
               "id": "Observation1452",
@@ -2856,7 +2865,7 @@
             }
           },
           {
-            "fullUrl": "urn:uuid:47630420-7ad7-4300-9386-5jh1rj8r1j8f2",
+            "fullUrl": "urn:uuid:c5eb5724-3a4d-4059-b63a-915e9f1f8d7c",
             "resource": {
               "resourceType": "Observation",
               "id": "Observation374360",
@@ -2934,7 +2943,7 @@
             }
           },
           {
-            "fullUrl": "urn:uuid:47630420-7ad7-4300-9386-71bda08321fv4",
+            "fullUrl": "urn:uuid:c6ea4f34-3923-42f4-9755-11e340ca7161",
             "resource": {
               "resourceType": "Observation",
               "id": "Observation327745",
@@ -2990,7 +2999,7 @@
             }
           },
           {
-            "fullUrl": "urn:uuid:47630420-7ad7-4300-9386-98t0u2fj2fj2f",
+            "fullUrl": "urn:uuid:fbb4bcf7-aa61-43ad-be1b-01c80bd6de0b",
             "resource": {
               "resourceType": "Observation",
               "id": "Observation327747",
@@ -3046,7 +3055,7 @@
             }
           },
           {
-            "fullUrl": "urn:uuid:47630420-7ad7-4300-9386-134ufmnf849j3fm",
+            "fullUrl": "urn:uuid:5a924b4f-9cc7-45fc-9fed-22342b4b9b07",
             "resource": {
               "resourceType": "Observation",
               "id": "Observation46170",
@@ -3102,7 +3111,7 @@
             }
           },
           {
-            "fullUrl": "urn:uuid:71bda083-63b2-4418-ba5e-7bf0195775u20",
+            "fullUrl": "urn:uuid:1feb029f-743a-4056-9bf3-b0155dd6ce7b",
             "resource": {
               "resourceType": "Observation",
               "id": "Observation1486",

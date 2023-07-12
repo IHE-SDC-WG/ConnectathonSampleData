@@ -4,12 +4,13 @@ Usage: #inline
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 * extension[0].extension[0].url = "ombCategory"
 * extension[=].extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2106-3 "White"
+* extension[=].extension[+].url = "text"
 * extension[=].extension[=].valueString = "White"
 * extension[=].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
 * extension[+].extension[0].url = "ombCategory"
 * extension[=].extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2135-2 "Hispanic or Latino"
+* extension[=].extension[+].url = "text"
 * extension[=].extension[=].valueString = "Hispanic or Latino"
-* extension[=].extension[+].url = "detailed"
 * extension[=].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
 * identifier[0].system = "http://hl7.org/fhir/sid/us-npi"
 * identifier[=].value = "1234567893"
@@ -55,7 +56,7 @@ Usage: #inline
 * identifier[=].value = "pathpract1"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-npi"
 * identifier[=].value = "1245319599"
-* code = http://hl7.org/fhir/us/cancer-reporting/ValueSet/us-pathology-provider-types#principal-result-interpreter "Pathologist principally interpreting results on pathology testing"
+* code = uspathtype#principal-result-interpreter "Pathologist principally interpreting results on pathology testing"
 
 Instance: AbrahamPractitioner
 InstanceOf: Practitioner

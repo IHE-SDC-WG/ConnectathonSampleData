@@ -11,3 +11,5 @@ Alias:   v2-0487 = http://terminology.hl7.org/CodeSystem/v2-0487
 Alias: CAP = http://cap.org/eCC
 Alias: MPC = http://hl7.org/fhir/message-significance-category
 Alias: trigdef = http://hl7.org/fhir/us/medmorph/CodeSystem/us-ph-triggerdefinition-namedevents
+Alias: uspathtype = http://hl7.org/fhir/us/cancer-reporting/ValueSet/us-pathology-provider-types
+Alias: phmsgheader = http://hl7.org/fhir/us/medmorph/CodeSystem/us-ph-messageheader-message-types
