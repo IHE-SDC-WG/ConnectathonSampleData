@@ -90,8 +90,10 @@ Usage: #example
 * meta.extension[+].url = "http://hl7.org/fhir/StructureDefinition/instance-description"
 * meta.extension[=].valueMarkdown = "This is the EndoSoft Pathology Lab for the HIMSS 2023 Treating the Whole Person Showcase."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
-* identifier.system = "urn:oid:2.16.840.1.113883.4.7"
-* identifier.value = "12D3456789"
+* identifier[+].system = "http://hl7.org/fhir/sid/us-npi"
+* identifier[=].value = "1237469595"
+* identifier[+].system = "urn:oid:2.16.840.1.113883.4.7"
+* identifier[=].value = "12D3456789"
 * active = true
 * type = http://terminology.hl7.org/CodeSystem/organization-type#prov "Healthcare Provider"
 * name = "EndoSoft Pathology Lab"

@@ -332,6 +332,10 @@
               },
               "identifier": [
                 {
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "value": "1237469595"
+                },
+                {
                   "system": "urn:oid:2.16.840.1.113883.4.7",
                   "value": "12D3456789"
                 }
@@ -891,6 +895,10 @@
                 ]
               },
               "identifier": [
+                {
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "value": "1237469595"
+                },
                 {
                   "system": "urn:oid:2.16.840.1.113883.4.7",
                   "value": "12D3456789"
@@ -2048,6 +2056,10 @@
                 ]
               },
               "identifier": [
+                {
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "value": "1237469595"
+                },
                 {
                   "system": "urn:oid:2.16.840.1.113883.4.7",
                   "value": "12D3456789"
