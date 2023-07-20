@@ -237,7 +237,7 @@ Usage: #inline
 * identifier.value = "urn:uuid:2be6eee2-b66b-43e2-9f5f-3927434tgg3"
 * status = #final
 * code.coding[0] = CAP#1452.100004300 "Histologic Grade"
-* code.coding[+] = http://snomed.info/sct#399375005 "Tumor Size"
+* code.coding[+] = http://snomed.info/sct#399375005 "Tumor size finding (finding)"
 * subject = Reference(Patient/1234567893) "Rosa Gonzalez"
 * effectivePeriod.start = "2023-03-28T19:19:09+00:00"
 * performer = Reference(Practitioner/1245319599) "L. Turtzo Sample"
@@ -307,7 +307,7 @@ Usage: #inline
 * performer = Reference(Practitioner/1245319599) "L. Turtzo Sample"
 * performer.type = "Practitioner"
 * valueCodeableConcept.coding[0] = CAP#356548.100004300 "Tumor present in regional lymph node(s)"
-* valueCodeableConcept.coding[+] = SCT#399374009 "Regional lymph node involvement present (1 of 12)"
+* valueCodeableConcept.coding[+] = SCT#399374009 "Regional lymph node metastasis present (finding)"
 * derivedFrom.identifier.system = "http://cap.org/eCP"
 * derivedFrom.identifier.value = "urn:uuid:71bda083-63b2-4418-ba5e-7bf529295848"
 * component.code = CAP#5795.100004300 "Exact number (specify)"
@@ -326,7 +326,7 @@ Usage: #inline
 * performer = Reference(Practitioner/1245319599) "L. Turtzo Sample"
 * performer.type = "Practitioner"
 * valueCodeableConcept.coding[0] = CAP#37632.100004300 "pT2: Tumor invades the muscularis propria"
-* valueCodeableConcept.coding[+] = SCT#1229852009 "pT2: Tumour invades muscularis propria (colon/rectum)"
+* valueCodeableConcept.coding[+] = SCT#1229852009 "American Joint Committee on Cancer pT2 (qualifier value)"
 
 Instance: Observation327747
 InstanceOf: Observation
@@ -335,13 +335,13 @@ Usage: #inline
 * identifier.value = "urn:uuid:47630420-7ad7-4300-9386-98t0u2fj2fj2f"
 * status = #final
 * code.coding[0] = CAP#371494008.100004300 "pN Category"
-* code.coding[+] = SCT#1229954009 "pN Category"
+* code.coding[+] = SCT#371494008 "pN category (observable entity)"
 * subject = Reference(Patient/1234567893) "Rosa Gonzalez"
 * effectivePeriod.start = "2023-03-28T19:19:09+00:00"
 * performer = Reference(Practitioner/1245319599) "L. Turtzo Sample"
 * performer.type = "Practitioner"
 * valueCodeableConcept.coding[0] = CAP#37632.100004300 "pN1a: One regional lymph node is positive"
-* valueCodeableConcept.coding[+] = SCT#1229954009 "pN1a"
+* valueCodeableConcept.coding[+] = SCT#1229954009 "American Joint Committee on Cancer pN1a (qualifier value)"
 
 Instance: Observation46170
 InstanceOf: Observation

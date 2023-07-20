@@ -163,9 +163,9 @@
           {
             "coding": [
               {
-                "code": "principal-result-interpreter",
-                "system": "http://hl7.org/fhir/us/cancer-reporting/ValueSet/us-pathology-provider-types",
-                "display": "Pathologist principally interpreting results on pathology testing"
+                "code": "PI",
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0443",
+                "display": "Primary Interpreter"
               }
             ]
           }
@@ -788,7 +788,7 @@
             {
               "code": "399375005",
               "system": "http://snomed.info/sct",
-              "display": "Tumor Size"
+              "display": "Tumor size finding (finding)"
             }
           ]
         },
@@ -1199,7 +1199,7 @@
             {
               "code": "399374009",
               "system": "http://snomed.info/sct",
-              "display": "Regional lymph node involvement present (1 of 12)"
+              "display": "Regional lymph node metastasis present (finding)"
             }
           ]
         },
@@ -1281,7 +1281,7 @@
             {
               "code": "1229852009",
               "system": "http://snomed.info/sct",
-              "display": "pT2: Tumour invades muscularis propria (colon/rectum)"
+              "display": "American Joint Committee on Cancer pT2 (qualifier value)"
             }
           ]
         }
@@ -1311,9 +1311,9 @@
               "display": "pN Category"
             },
             {
-              "code": "1229954009",
+              "code": "371494008",
               "system": "http://snomed.info/sct",
-              "display": "pN Category"
+              "display": "pN category (observable entity)"
             }
           ]
         },
@@ -1341,7 +1341,7 @@
             {
               "code": "1229954009",
               "system": "http://snomed.info/sct",
-              "display": "pN1a"
+              "display": "American Joint Committee on Cancer pN1a (qualifier value)"
             }
           ]
         }

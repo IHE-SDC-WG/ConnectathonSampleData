@@ -20,8 +20,8 @@ InstanceOf: MessageHeader
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/us/medmorph/StructureDefinition/us-ph-messageheader"
 * meta.tag = http://topology.health/fhir/CodeSystem/medplum-ecrnow-js#medplum-ecrnow-js-server
-* extension.url = "http://hl7.org/fhir/us/medmorph/StructureDefinition/ext-messageProcessingCategory"
-* extension.valueCode = MPC#currency
+* extension.url = "http://hl7.org/fhir/us/medmorph/StructureDefinition/us-ph-report-initiation-type"
+* extension.valueCodeableConcept = reportinit#subscription-notification
 * eventCoding = phmsgheader#cancer-report-message
 * destination.endpoint = "https://fakedestination.dhec.sc.gov"
 * sender = Reference(Organization/EndoSoftPathologyLab)

@@ -56,7 +56,7 @@ Usage: #inline
 * identifier[=].value = "pathpract1"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-npi"
 * identifier[=].value = "1245319599"
-* code = uspathtype#principal-result-interpreter "Pathologist principally interpreting results on pathology testing"
+* code = uspathtype#PI "Primary Interpreter"
 
 Instance: AbrahamPractitioner
 InstanceOf: Practitioner
