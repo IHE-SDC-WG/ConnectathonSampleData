@@ -11,6 +11,6 @@ This FHIR repository contains the following resources:
 * Specimen Lung
 * Specimen Breast
 
-Most of the data is represented in [FHIR ShortHand](https://hl7.org/fhir/uv/shorthand/) and has been created as FHIR resources in the fsh-generated folder.
+The data in the FSH/Generated folder has been created using [FHIR ShortHand](https://hl7.org/fhir/uv/shorthand/), otherwise this data was generated using the [SDC On FHIR Parser](https://github.com/IHE-SDC-WG/IHE-SDC-FHIR-Parser).
 
 More data may be added prior to connectathon.
