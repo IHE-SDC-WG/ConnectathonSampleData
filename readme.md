@@ -15,7 +15,7 @@ The data in the FSH/Generated folder has been created using [FHIR ShortHand](htt
 
 More data may be added prior to connectathon.
 
-## Jan 2024 Connectathon Test Data
+## Sept 2024 Connectathon Test Data
 
 Here's a list of the resources used in the Jan 2024 Connectathon
 
