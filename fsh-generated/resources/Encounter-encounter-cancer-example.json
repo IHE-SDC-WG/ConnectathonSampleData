@@ -1,6 +1,12 @@
 {
   "resourceType": "Encounter",
   "id": "encounter-cancer-example",
+  "identifier": [
+    {
+      "system": "http://someIdentifier.com",
+      "value": "OncEncounter1"
+    }
+  ],
   "status": "finished",
   "class": {
     "code": "AMB",

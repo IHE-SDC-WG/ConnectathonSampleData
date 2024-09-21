@@ -1,11 +1,19 @@
 [
   {
-    "outputFile": "AllergyIntolerance-example.json",
-    "fshName": "example",
+    "outputFile": "AllergyIntolerance-AllergySulfonamide1.json",
+    "fshName": "AllergySulfonamide1",
     "fshType": "Instance",
     "fshFile": "AllergyIntolerance.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 11
+  },
+  {
+    "outputFile": "Bundle-Jan2024ConnectathonBundle.json",
+    "fshName": "Jan2024ConnectathonBundle",
+    "fshType": "Instance",
+    "fshFile": "Jan2024Bundle.fsh",
+    "startLine": 1,
+    "endLine": 68
   },
   {
     "outputFile": "Bundle-MsgBundleColorectalEverything.json",
@@ -53,7 +61,7 @@
     "fshType": "Instance",
     "fshFile": "Condition.fsh",
     "startLine": 1,
-    "endLine": 10
+    "endLine": 12
   },
   {
     "outputFile": "Encounter-encounter-cancer-example.json",
@@ -61,23 +69,23 @@
     "fshType": "Instance",
     "fshFile": "Encounter.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 10
   },
   {
-    "outputFile": "MedicationAdministration-cancer-related-medication-administration-example.json",
-    "fshName": "cancer-related-medication-administration-example",
+    "outputFile": "MedicationAdministration-chemodrug1.json",
+    "fshName": "chemodrug1",
     "fshType": "Instance",
     "fshFile": "MedicationAdmin.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 10
   },
   {
-    "outputFile": "Observation-cancer-stage-group-example.json",
-    "fshName": "cancer-stage-group-example",
+    "outputFile": "Observation-ObservationCancerStage1.json",
+    "fshName": "ObservationCancerStage1",
     "fshType": "Instance",
     "fshFile": "ObservationCancerStageGroup.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 10
   },
   {
     "outputFile": "Organization-EndoSoftPathologyLab.json",

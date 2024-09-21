@@ -34,3 +34,5 @@ FSH Files:
 * Condition.fsh
 * ObservationCancerStageGroup.fsh
 * ProcedureRequest.fsh
+
+Jan2024Bundle.fsh contains all these resources in a Transaction Bundle

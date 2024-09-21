@@ -1,6 +1,12 @@
 {
   "resourceType": "Condition",
   "id": "primary-cancer-condition-breast",
+  "identifier": [
+    {
+      "system": "http://someIdentifier.com",
+      "value": "CancerCondition1"
+    }
+  ],
   "clinicalStatus": {
     "coding": [
       {

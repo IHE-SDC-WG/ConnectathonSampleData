@@ -1,6 +1,8 @@
 Instance: primary-cancer-condition-breast
 InstanceOf: Condition
 Usage: #example
+* identifier.system = "http://someIdentifier.com"
+* identifier.value = "CancerCondition1"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * category = $condition-category#problem-list-item

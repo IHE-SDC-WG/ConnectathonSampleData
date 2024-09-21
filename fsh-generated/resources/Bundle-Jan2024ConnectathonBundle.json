@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "TxBundleColorectalBMK",
+  "id": "Jan2024ConnectathonBundle",
   "type": "transaction",
   "entry": [
     {
@@ -600,6 +600,228 @@
       "request": {
         "method": "POST",
         "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:394ac7aa-4992-481f-abea-604d1aa24d97",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "chemodrug1",
+        "identifier": [
+          {
+            "system": "http://someIdentifier.com",
+            "value": "chemodrug1"
+          }
+        ],
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "123456",
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "display": "Chemotherapy drug"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1234567893",
+          "display": "Rosa Gonzalez"
+        },
+        "effectiveDateTime": "2023-01-02T22:13:23Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "Practitioner/1871569939",
+              "display": "Dr. Abrham Atlas"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "MedicationAdministration"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b95f057-ae68-4b9a-ab75-2ac713f8bcc1",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "AllergySulfonamide1",
+        "identifier": [
+          {
+            "system": "http://someIdentifier.com",
+            "value": "AllergySulfonamide1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "418689008",
+              "system": "http://snomed.info/sct",
+              "display": "Allergy to sulfonamide"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/1234567893",
+          "display": "Rosa Gonzalez"
+        },
+        "onsetDateTime": "2021-06-01",
+        "recorder": {
+          "reference": "Practitioner/1871569939"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6fd8fdc1-0e80-424a-b463-cdb7a04e6711",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "encounter-cancer-example",
+        "identifier": [
+          {
+            "system": "http://someIdentifier.com",
+            "value": "OncEncounter1"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "code": "AMB",
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+        },
+        "subject": {
+          "reference": "Patient/1234567893",
+          "display": "Rosa Gonzalez"
+        },
+        "serviceProvider": {
+          "reference": "Organization/1194881234"
+        },
+        "period": {
+          "start": "2023-01-02T22:13:23Z"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Encounter"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bd5fd121-90b3-4e6d-9fff-6e05779b314f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ObservationCancerStage1",
+        "identifier": [
+          {
+            "system": "http://someIdentifier.com",
+            "value": "ObservationCancerStage1"
+          }
+        ],
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "21908-9",
+              "system": "http://loinc.org",
+              "display": "Stage group.clinical Cancer"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1EKG4-TEST-RG56"
+        },
+        "effectiveDateTime": "2023-01-02T22:13:23Z",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "code": "36929009",
+              "system": "http://snomed.info/sct",
+              "display": "Stage II (localized)"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Observation"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f6621b6-1e3f-4b23-8191-90f34215faf7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "primary-cancer-condition-breast",
+        "identifier": [
+          {
+            "system": "http://someIdentifier.com",
+            "value": "CancerCondition1"
+          }
+        ],
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "363346000",
+              "system": "http://snomed.info/sct",
+              "display": "Malignant neoplastic disease (disorder)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1234567893",
+          "display": "Rosa Gonzalez"
+        },
+        "recorder": {
+          "reference": "Practitioner/1871569939"
+        },
+        "onsetDateTime": "2021-01-01"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Condition"
       }
     }
   ]

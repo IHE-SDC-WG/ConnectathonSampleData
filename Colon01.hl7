@@ -1,0 +1,45 @@
+MSH|^~\&||xxx^1234^CLIA|||1235||ORU^R01^ORU_R01|12|P|2.5.1|
+
+PID|1||AR00009634^^^SMM&0000301337&CALIF^MR~667415923^^^USSSA^SS||Gonzalez^Rosa^^^^^L||19970531|M||U^Unknown^HL70005|65 10th St^^Redwood^CA^93205^USA^H||^PRN^PH^^1^650^2695588|||||||||||||||||N
+ORC|RE||||||||||||||||||||SMM^A^^^^California^CALIF^^^0000301337|31872 Coast Hwy^^Laguna Beach^CA^92651^USA^B||24022 Calle de la Plata^Suite 305^Laguna Hills^CA^92653^USA^B
+OBR|1||15SL-2^SMLPTH^05D0579701^CLIA|60568-3^SYNOPTIC REPORT^LN^SR-MTUITVE^CAP Synoptic Reporting^L|||20210223|||1073507190^Prendiville^Paul^L^^^^^CMS^L^^^NPI~G73434^Prendiville^Paul^L^^^^^California^L^^^SL||||||1073507190^Prendiville^Paul^L^^^^^CMS^L^^^NPI~G73434^Prendiville^Paul^L^^^^^California^L^^^SL|^WPN^PH^^1^949^5882020~^WPN^FX^^^949^5880336|||||20210223|||F|||||||1043318512&Vanley&Christopher&T&&&&&CMS
+
+OBX|1|ST|60573-3^Report template source^LN||CAP eCC||||||F|||201912311100
+OBX|2|CWE|60572-5^Report template ID^LN||126.100004300^COLON AND RECTUM: Resection, Including Transanal Disk Excision of Rectal Neoplasms^CAPECC||||||F|||201912311100
+OBX|3|ST|60574-1^Report template version ID^LN||3.003.001||||||F|||201912311100
+OBX|4|CWE|1416.100004300^Procedure^CAPECC||1425.100004300^Right hemicolectomy^CAPECC||||||F|||201912311100
+OBX|5|CWE|1457.100004300^?Macroscopic Intactness of Mesorectum (Note I)^CAPECC||15380.100004300^Cannot be determined^CAPECC||||||F|||201912311100
+OBX|6|CWE|56314.100004300^Tumor Site (Note A)^CAPECC||17263.100004300^Right (ascending) colon^CAPECC||||||F|||201912311100
+OBX|7|CWE|41344.100004300^Histologic Type (Note B)^CAPECC||1464.100004300^Adenocarcinoma^CAPECC||||||F|||201912311100
+OBX|8|CWE|38111.100004300^Histologic Grade (Note C)^CAPECC||1485.100004300^Other (specify)^CAPECC||||||F|||201912311100
+OBX|9|ST|38111.100004300^Histologic Grade (Note C)^CAPECC|1485|High-grade (poorly differentiated to undifferentiated)||||||F|||201912311100
+OBX|10|CWE|1452.100004300^Tumor Size^CAPECC||1454.100004300^Greatest dimension in Centimeters (cm)^CAPECC||||||F|||201912311100
+OBX|11|NM|1452.100004300^Tumor Size^CAPECC|1454|5|cm^CentiMeter^UCUM|||||F|||201912311100
+OBX|12|NM|1455.100004300^Additional Dimension in Centimeters (cm)^CAPECC||4.0|cm^CentiMeter^UCUM|||||F|||201912311100
+OBX|13|NM|1456.100004300^Additional Dimension in Centimeters (cm)^CAPECC||1.2|cm^CentiMeter^UCUM|||||F|||201912311100
+OBX|14|CWE|15388.100004300^Tumor Deposits (Note L)^CAPECC||15436.100004300^Present^CAPECC||||||F|||201912311100
+OBX|15|CWE|25321.100004300^Number of Deposits^CAPECC||25323.100004300^Specify number^CAPECC||||||F|||201912311100
+OBX|16|NM|25321.100004300^Number of Deposits^CAPECC|25323|2||||||F|||201912311100
+OBX|17|CWE|38112.100004300^Tumor Extension^CAPECC||38061.100004300^Tumor invades the visceral peritoneum (including tumor continuous with serosal surface through area of inflammation)^CAPECC||||||F|||201912311100
+OBX|18|CWE|15358.100004300^Macroscopic Tumor Perforation (Note H)^CAPECC||15371.100004300^Not identified^CAPECC||||||F|||201912311100
+OBX|19|CWE|1544.100004300^Lymphovascular Invasion (Note E)^CAPECC||1546.100004300^Present^CAPECC||||||F|||201912311100
+OBX|20|CWE|1558.100004300^Perineural Invasion (Note E)^CAPECC||1560.100004300^Present^CAPECC||||||F|||201912311100
+OBX|21|CWE|38114.100004300^Type of Polyp in Which Invasive Carcinoma Arose (Note G)^CAPECC||15407.100004300^None identified^CAPECC||||||F|||201912311100
+OBX|22|CWE|47145.100004300^Treatment Effect (Note K)^CAPECC||15405.100004300^No known presurgical therapy^CAPECC||||||F|||201912311100
+OBX|23|CWE|51831.100004300^Margins^CAPECC||58051.100004300^All margins are uninvolved by invasive carcinoma, high-grade dysplasia, intramucosal adenocarcinoma, and adenoma#^CAPECC||||||F|||201912311100
+OBX|24|CWE|46212.100004300^Margins Examined^CAPECC||53626.100004300^Proximal^CAPECC||||||F|||201912311100
+OBX|25|CWE|46212.100004300^Margins Examined^CAPECC||43261.100004300^Distal^CAPECC||||||F|||201912311100
+OBX|26|CWE|46212.100004300^Margins Examined^CAPECC||42328.100004300^Radial or Mesenteric^CAPECC||||||F|||201912311100
+OBX|27|CWE|21761.100004300^Distance of Invasive Carcinoma from Closest Margin^CAPECC||21767.100004300^Specify in Millimeters (mm)^CAPECC||||||F|||201912311100
+OBX|28|NM|21761.100004300^Distance of Invasive Carcinoma from Closest Margin^CAPECC|21767|1.5|mm^milliMeter^UCUM|||||F|||201912311100
+OBX|29|CWE|39720.100004300^Specify Closest Margin^CAPECC||1541.100004300^Radial or Mesenteric^CAPECC||||||F|||201912311100
+OBX|30|CWE|46656.100004300^?Distance of Tumor from Radial Margin#^CAPECC||43224.100004300^?Not applicable^CAPECC||||||F|||201912311100
+OBX|31|CWE|34186.100004300^Number of Lymph Nodes Involved^CAPECC||5795.100004300^Specify number^CAPECC||||||F|||201912311100
+OBX|32|NM|34186.100004300^Number of Lymph Nodes Involved^CAPECC|5795|13||||||F|||201912311100
+OBX|33|CWE|34185.100004300^Number of Lymph Nodes Examined^CAPECC||5792.100004300^Specify number^CAPECC||||||F|||201912311100
+OBX|34|NM|34185.100004300^Number of Lymph Nodes Examined^CAPECC|5792|26||||||F|||201912311100
+OBX|35|CWE|15375.100004300^?TNM Descriptors^CAPECC||2248.100004300^?Not applicable^CAPECC||||||F|||201912311100
+OBX|36|CWE|44427.100004300^Primary Tumor (pT)^CAPECC||37635.100004300^pT4a: Tumor invades# through the visceral peritoneum (including gross perforation of the bowel through tumor and continuous invasion of tumor through areas of inflammation to the surface of the visceral peritoneum)^CAPECC||||||F|||201912311100
+OBX|37|CWE|57454.100004300^Regional Lymph Nodes (pN)^CAPECC||37645.100004300^pN2b: Seven or more regional lymph nodes are positive^CAPECC||||||F|||201912311100
+OBX|38|CWE|46170.100004300^?Distant Metastasis (pM)^CAPECC||37648.100004300^?Not applicable - pM cannot be determined from the submitted specimen(s)^CAPECC||||||F|||201912311100
+OBX|39|CWE|38117.100004300^Additional Pathologic Findings^CAPECC||1569.100004300^None identified^CAPECC||||||F|||201912311100

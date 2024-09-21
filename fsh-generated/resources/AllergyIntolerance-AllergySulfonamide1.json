@@ -1,6 +1,12 @@
 {
   "resourceType": "AllergyIntolerance",
-  "id": "example",
+  "id": "AllergySulfonamide1",
+  "identifier": [
+    {
+      "system": "http://someIdentifier.com",
+      "value": "AllergySulfonamide1"
+    }
+  ],
   "clinicalStatus": {
     "coding": [
       {

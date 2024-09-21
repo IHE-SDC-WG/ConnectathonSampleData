@@ -1,6 +1,8 @@
-Instance: cancer-related-medication-administration-example
+Instance: chemodrug1
 InstanceOf: MedicationAdministration
 Usage: #example
+* identifier.system = "http://someIdentifier.com"
+* identifier.value = "chemodrug1"
 * status = #completed
 * medicationCodeableConcept = RXN#123456 "Chemotherapy drug"
 * subject = Reference(Patient/1234567893) "Rosa Gonzalez"

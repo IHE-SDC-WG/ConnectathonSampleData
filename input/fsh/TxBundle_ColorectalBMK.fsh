@@ -51,6 +51,8 @@ Instance: ColorectalBMKDiagnosticReport
 InstanceOf: DiagnosticReport
 Usage: #inline
 * meta.profile = "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-diagnostic-report"
+* identifier.system = "http://someidentifier.com"
+* identifier.value = "diagreport1"
 * status = #final
 * category = http://loinc.org#LP7839-6 "Pathology"
 * code = http://loinc.org#60568-3 "Pathology Synoptic report"
@@ -93,4 +95,3 @@ Usage: #inline
 * performer.type = "Practitioner"
 * hasMember[0].identifier.system = "http://cap.org/eCP"
 * hasMember[=].identifier.value = "urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882"
-

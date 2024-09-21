@@ -2507,6 +2507,12 @@
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-diagnostic-report"
           ]
         },
+        "identifier": [
+          {
+            "system": "http://someidentifier.com",
+            "value": "diagreport1"
+          }
+        ],
         "status": "final",
         "category": [
           {

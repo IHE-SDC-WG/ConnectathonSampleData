@@ -1,6 +1,12 @@
 {
   "resourceType": "Observation",
-  "id": "cancer-stage-group-example",
+  "id": "ObservationCancerStage1",
+  "identifier": [
+    {
+      "system": "http://someIdentifier.com",
+      "value": "ObservationCancerStage1"
+    }
+  ],
   "status": "final",
   "code": {
     "coding": [

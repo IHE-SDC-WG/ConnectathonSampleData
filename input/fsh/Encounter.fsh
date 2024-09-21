@@ -1,6 +1,8 @@
 Instance: encounter-cancer-example
 InstanceOf: Encounter
 Usage: #example
+* identifier.system = "http://someIdentifier.com"
+* identifier.value = "OncEncounter1"
 * status = #finished
 * class = $v3-ActCode#AMB
 * subject = Reference(Patient/1234567893) "Rosa Gonzalez"
