@@ -1,0 +1,19 @@
+{
+  "resourceType": "Encounter",
+  "id": "encounter-cancer-example",
+  "status": "finished",
+  "class": {
+    "code": "AMB",
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+  },
+  "subject": {
+    "reference": "Patient/1234567893",
+    "display": "Rosa Gonzalez"
+  },
+  "serviceProvider": {
+    "reference": "Organization/1194881234"
+  },
+  "period": {
+    "start": "2023-01-02T22:13:23Z"
+  }
+}

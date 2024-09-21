@@ -1,0 +1,186 @@
+[
+  {
+    "outputFile": "AllergyIntolerance-example.json",
+    "fshName": "example",
+    "fshType": "Instance",
+    "fshFile": "AllergyIntolerance.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "Bundle-MsgBundleColorectalEverything.json",
+    "fshName": "MsgBundleColorectalEverything",
+    "fshType": "Instance",
+    "fshFile": "MsgBundle_ColorectalEverything.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "Bundle-TxBundleColorectalBMK.json",
+    "fshName": "TxBundleColorectalBMK",
+    "fshType": "Instance",
+    "fshFile": "TxBundle_ColorectalBMK.fsh",
+    "startLine": 1,
+    "endLine": 48
+  },
+  {
+    "outputFile": "Bundle-TxBundleColorectalBx.json",
+    "fshName": "TxBundleColorectalBx",
+    "fshType": "Instance",
+    "fshFile": "TxBundle_ColorectalBx.fsh",
+    "startLine": 1,
+    "endLine": 84
+  },
+  {
+    "outputFile": "Bundle-TxBundleColorectalEverything.json",
+    "fshName": "TxBundleColorectalEverything",
+    "fshType": "Instance",
+    "fshFile": "TxBundle_ColorectalEverything.fsh",
+    "startLine": 1,
+    "endLine": 173
+  },
+  {
+    "outputFile": "Bundle-TxBundleColorectalRes.json",
+    "fshName": "TxBundleColorectalRes",
+    "fshType": "Instance",
+    "fshFile": "TxBundle_ColorectalRes.fsh",
+    "startLine": 1,
+    "endLine": 116
+  },
+  {
+    "outputFile": "Condition-primary-cancer-condition-breast.json",
+    "fshName": "primary-cancer-condition-breast",
+    "fshType": "Instance",
+    "fshFile": "Condition.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "Encounter-encounter-cancer-example.json",
+    "fshName": "encounter-cancer-example",
+    "fshType": "Instance",
+    "fshFile": "Encounter.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "MedicationAdministration-cancer-related-medication-administration-example.json",
+    "fshName": "cancer-related-medication-administration-example",
+    "fshType": "Instance",
+    "fshFile": "MedicationAdmin.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Observation-cancer-stage-group-example.json",
+    "fshName": "cancer-stage-group-example",
+    "fshType": "Instance",
+    "fshFile": "ObservationCancerStageGroup.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Organization-EndoSoftPathologyLab.json",
+    "fshName": "EndoSoftPathologyLab",
+    "fshType": "Instance",
+    "fshFile": "PatientPractitioner.fsh",
+    "startLine": 85,
+    "endLine": 106
+  },
+  {
+    "outputFile": "Organization-GastroenterologistCenterOrganization.json",
+    "fshName": "GastroenterologistCenterOrganization",
+    "fshType": "Instance",
+    "fshFile": "PatientPractitioner.fsh",
+    "startLine": 108,
+    "endLine": 127
+  },
+  {
+    "outputFile": "Patient-MeredithPatient.json",
+    "fshName": "MeredithPatient",
+    "fshType": "Instance",
+    "fshFile": "Patient_Meredith.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "Practitioner-AbrahamPractitioner.json",
+    "fshName": "AbrahamPractitioner",
+    "fshType": "Instance",
+    "fshFile": "PatientPractitioner.fsh",
+    "startLine": 61,
+    "endLine": 72
+  },
+  {
+    "outputFile": "Practitioner-RikiBPractitioner.json",
+    "fshName": "RikiBPractitioner",
+    "fshType": "Instance",
+    "fshFile": "Practitioner_RikiB.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "PractitionerRole-AbrahamPractitionerRole.json",
+    "fshName": "AbrahamPractitionerRole",
+    "fshType": "Instance",
+    "fshFile": "PatientPractitioner.fsh",
+    "startLine": 74,
+    "endLine": 83
+  },
+  {
+    "outputFile": "Procedure-radiotherapy-example.json",
+    "fshName": "radiotherapy-example",
+    "fshType": "Instance",
+    "fshFile": "ProcedureRequest.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ServiceRequest-ColorectalServiceRequest.json",
+    "fshName": "ColorectalServiceRequest",
+    "fshType": "Instance",
+    "fshFile": "PatientPractitioner.fsh",
+    "startLine": 129,
+    "endLine": 137
+  },
+  {
+    "outputFile": "Specimen-SpecimenBreastBMK.json",
+    "fshName": "SpecimenBreastBMK",
+    "fshType": "Instance",
+    "fshFile": "Specimen_BreastBMK.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "Specimen-SpecimenLung.json",
+    "fshName": "SpecimenLung",
+    "fshType": "Instance",
+    "fshFile": "Specimen_Lung.fsh",
+    "startLine": 2,
+    "endLine": 17
+  },
+  {
+    "outputFile": "Specimen-SpecimenSubLung1.json",
+    "fshName": "SpecimenSubLung1",
+    "fshType": "Instance",
+    "fshFile": "Specimen_SubLung1.fsh",
+    "startLine": 2,
+    "endLine": 20
+  },
+  {
+    "outputFile": "Specimen-SpecimenSubLung2.json",
+    "fshName": "SpecimenSubLung2",
+    "fshType": "Instance",
+    "fshFile": "Specimen_SubLung2.fsh",
+    "startLine": 2,
+    "endLine": 20
+  },
+  {
+    "outputFile": "StructureDefinition-us-pathology-specimen.json",
+    "fshName": "USPathologySpecimen",
+    "fshType": "Profile",
+    "fshFile": "USPathologySpecimen.fsh",
+    "startLine": 3,
+    "endLine": 38
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "resourceType": "MedicationAdministration",
+  "id": "cancer-related-medication-administration-example",
+  "status": "completed",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "code": "123456",
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "display": "Chemotherapy drug"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/1234567893",
+    "display": "Rosa Gonzalez"
+  },
+  "effectiveDateTime": "2023-01-02T22:13:23Z",
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/1871569939",
+        "display": "Dr. Abrham Atlas"
+      }
+    }
+  ]
+}

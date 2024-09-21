@@ -1,0 +1,22 @@
+{
+  "resourceType": "Procedure",
+  "id": "radiotherapy-example",
+  "status": "completed",
+  "category": {
+    "coding": [
+      {
+        "code": "1217123003",
+        "system": "http://snomed.info/sct",
+        "display": "Radiotherapy course of treatment"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/1234567893",
+    "display": "Rosa Gonzalez"
+  },
+  "performedPeriod": {
+    "start": "2023-01-01",
+    "end": "2023-01-20"
+  }
+}

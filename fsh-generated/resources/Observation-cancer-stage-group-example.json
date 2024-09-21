@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "cancer-stage-group-example",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "code": "21908-9",
+        "system": "http://loinc.org",
+        "display": "Stage group.clinical Cancer"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/1EKG4-TEST-RG56"
+  },
+  "effectiveDateTime": "2023-01-02T22:13:23Z",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "36929009",
+        "system": "http://snomed.info/sct",
+        "display": "Stage II (localized)"
+      }
+    ]
+  }
+}
