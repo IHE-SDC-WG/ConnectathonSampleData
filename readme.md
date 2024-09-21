@@ -21,16 +21,16 @@ Here's a list of the resources used in the Jan 2024 Connectathon
 
 FSH Files: 
 
-PatientPractitioner.FSH
-    Patient: Rosa
-    Practitioner: Laura
-    PractitionerRole: Laura
-    Practitioner: Abraham
-    PractitionerRole: Abraham
-    Organization: EndoSoftPathologyLab
-    Organization: GastroenterologistCenterOrganization
-    ServiceRequest: ColorectalServiceRequest
-AllergyIntolerance.FSH
-Condition.fsh
-ObservationCancerStageGroup.fsh
-ProcedureRequest.fsh
+* PatientPractitioner.FSH
+  * Patient: Rosa
+  * Practitioner: Laura
+  * PractitionerRole: Laura
+  * Practitioner: Abraham
+  * PractitionerRole: Abraham
+  * Organization: EndoSoftPathologyLab
+  * Organization: GastroenterologistCenterOrganization
+  * ServiceRequest: ColorectalServiceRequest
+* AllergyIntolerance.FSH
+* Condition.fsh
+* ObservationCancerStageGroup.fsh
+* ProcedureRequest.fsh
