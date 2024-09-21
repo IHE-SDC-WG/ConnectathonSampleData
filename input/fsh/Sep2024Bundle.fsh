@@ -1,4 +1,4 @@
-Instance: Jan2024ConnectathonBundle
+Instance: Sep2024ConnectathonBundle
 InstanceOf: Bundle
 Usage: #example
 * type = #transaction
@@ -34,18 +34,18 @@ Usage: #example
 * entry[=].resource = ColorectalServiceRequest
 * entry[=].request.method = #POST
 * entry[=].request.url = "ServiceRequest"
+* entry[+].fullUrl = "urn:uuid:8874ca46-7306-4ea0-af4f-184ee2360882"
+* entry[=].resource = Observation30000
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "urn:uuid:b8fa882f-4ed6-4c2e-bd85-690bdedee29c"
+* entry[=].resource = Observation29484
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "urn:uuid:5debc920-1847-4a56-939c-fd77c87c257a"
 * entry[=].resource = ColorectalBMKDiagnosticReport
 * entry[=].request.method = #POST
 * entry[=].request.url = "DiagnosticReport"
-* entry[+].fullUrl = "urn:uuid:5e94bcd5-9d5d-4e7f-b580-dae154728ba8"
-* entry[=].resource = Observation30000
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-* entry[+].fullUrl = "urn:uuid:394ac7aa-4992-481f-abea-604d1aa24df0"
-* entry[=].resource = Observation29484
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "urn:uuid:394ac7aa-4992-481f-abea-604d1aa24d97"
 * entry[=].resource = chemodrug1
 * entry[=].request.method = #POST

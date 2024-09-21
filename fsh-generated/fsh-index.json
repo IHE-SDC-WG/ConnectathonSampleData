@@ -8,20 +8,20 @@
     "endLine": 11
   },
   {
-    "outputFile": "Bundle-Jan2024ConnectathonBundle.json",
-    "fshName": "Jan2024ConnectathonBundle",
-    "fshType": "Instance",
-    "fshFile": "Jan2024Bundle.fsh",
-    "startLine": 1,
-    "endLine": 68
-  },
-  {
     "outputFile": "Bundle-MsgBundleColorectalEverything.json",
     "fshName": "MsgBundleColorectalEverything",
     "fshType": "Instance",
     "fshFile": "MsgBundle_ColorectalEverything.fsh",
     "startLine": 1,
     "endLine": 16
+  },
+  {
+    "outputFile": "Bundle-Sep2024ConnectathonBundle.json",
+    "fshName": "Sep2024ConnectathonBundle",
+    "fshType": "Instance",
+    "fshFile": "Sep2024Bundle.fsh",
+    "startLine": 1,
+    "endLine": 68
   },
   {
     "outputFile": "Bundle-TxBundleColorectalBMK.json",
