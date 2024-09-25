@@ -8,6 +8,14 @@
     "endLine": 11
   },
   {
+    "outputFile": "Bundle-ClltnBundleColorectalBx.json",
+    "fshName": "ClltnBundleColorectalBx",
+    "fshType": "Instance",
+    "fshFile": "ClltnBundle_ColorectalBx.fsh",
+    "startLine": 1,
+    "endLine": 88
+  },
+  {
     "outputFile": "Bundle-MsgBundleColorectalEverything.json",
     "fshName": "MsgBundleColorectalEverything",
     "fshType": "Instance",
@@ -38,14 +46,6 @@
     "fshFile": "TxBundle_ColorectalBx.fsh",
     "startLine": 1,
     "endLine": 84
-  },
-  {
-    "outputFile": "Bundle-TxBundleColorectalBxClltn.json",
-    "fshName": "TxBundleColorectalBxClltn",
-    "fshType": "Instance",
-    "fshFile": "ClltnBundle_ColorectalBx.fsh",
-    "startLine": 1,
-    "endLine": 88
   },
   {
     "outputFile": "Bundle-TxBundleColorectalEverything.json",

@@ -1,4 +1,4 @@
-Instance: TxBundleColorectalBxClltn
+Instance: ClltnBundleColorectalBx
 InstanceOf: Bundle
 Usage: #example
 * type = #collection
