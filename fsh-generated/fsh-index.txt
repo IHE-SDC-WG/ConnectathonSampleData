@@ -4,8 +4,10 @@ Bundle-MsgBundleColorectalEverything.json               MsgBundleColorectalEvery
 Bundle-Sep2024ConnectathonBundle.json                   Sep2024ConnectathonBundle             Instance  Sep2024Bundle.fsh                   1 - 68
 Bundle-TxBundleColorectalBMK.json                       TxBundleColorectalBMK                 Instance  TxBundle_ColorectalBMK.fsh          1 - 48
 Bundle-TxBundleColorectalBx.json                        TxBundleColorectalBx                  Instance  TxBundle_ColorectalBx.fsh           1 - 84
+Bundle-TxBundleColorectalBxClltn.json                   TxBundleColorectalBxClltn             Instance  ClltnBundle_ColorectalBx.fsh        1 - 88
 Bundle-TxBundleColorectalEverything.json                TxBundleColorectalEverything          Instance  TxBundle_ColorectalEverything.fsh   1 - 173
 Bundle-TxBundleColorectalRes.json                       TxBundleColorectalRes                 Instance  TxBundle_ColorectalRes.fsh          1 - 116
+Composition-ColorectalBxComposition.json                ColorectalBxComposition               Instance  ClltnBundle_ColorectalBx.fsh        91 - 118
 Condition-primary-cancer-condition-breast.json          primary-cancer-condition-breast       Instance  Condition.fsh                       1 - 12
 Encounter-encounter-cancer-example.json                 encounter-cancer-example              Instance  Encounter.fsh                       1 - 10
 MedicationAdministration-chemodrug1.json                chemodrug1                            Instance  MedicationAdmin.fsh                 1 - 10

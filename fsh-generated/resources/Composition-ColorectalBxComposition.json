@@ -1,0 +1,90 @@
+{
+  "resourceType": "Composition",
+  "id": "ColorectalBxComposition",
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "code": "60567-5",
+        "system": "http://loinc.org"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/RosaPatient"
+  },
+  "date": "2024-09-25T12:00:00+00:00",
+  "author": [
+    {
+      "reference": "Practitioner/LauraPractitioner"
+    }
+  ],
+  "title": "Colorectal Biopsy Pathology Report",
+  "section": [
+    {
+      "title": "Practitioners Involved",
+      "entry": [
+        {
+          "reference": "Practitioner/LauraPractitioner"
+        },
+        {
+          "reference": "Practitioner/AbrahamPractitioner"
+        }
+      ]
+    },
+    {
+      "title": "Service Request",
+      "entry": [
+        {
+          "reference": "ServiceRequest/ColorectalServiceRequest"
+        }
+      ]
+    },
+    {
+      "title": "Diagnostic Report",
+      "entry": [
+        {
+          "reference": "DiagnosticReport/DiagnosticReportColorectalBx"
+        }
+      ]
+    },
+    {
+      "title": "Observations",
+      "entry": [
+        {
+          "reference": "Observation/ObsTumorSite"
+        },
+        {
+          "reference": "Observation/ObsHistologicType"
+        },
+        {
+          "reference": "Observation/ObsHistologicGrade"
+        },
+        {
+          "reference": "Observation/ObsLymphovascularInvasion"
+        },
+        {
+          "reference": "Observation/ObsMargin"
+        },
+        {
+          "reference": "Observation/ObsMarginStatus"
+        },
+        {
+          "reference": "Observation/ObsTumorSection"
+        },
+        {
+          "reference": "Observation/ObsMarginSection"
+        },
+        {
+          "reference": "Observation/ObsSpecimenSection"
+        },
+        {
+          "reference": "Observation/ObsAdditionalFinding"
+        },
+        {
+          "reference": "Observation/ObsSpecialStudies"
+        }
+      ]
+    }
+  ]
+}

@@ -40,6 +40,14 @@
     "endLine": 84
   },
   {
+    "outputFile": "Bundle-TxBundleColorectalBxClltn.json",
+    "fshName": "TxBundleColorectalBxClltn",
+    "fshType": "Instance",
+    "fshFile": "ClltnBundle_ColorectalBx.fsh",
+    "startLine": 1,
+    "endLine": 88
+  },
+  {
     "outputFile": "Bundle-TxBundleColorectalEverything.json",
     "fshName": "TxBundleColorectalEverything",
     "fshType": "Instance",
@@ -54,6 +62,14 @@
     "fshFile": "TxBundle_ColorectalRes.fsh",
     "startLine": 1,
     "endLine": 116
+  },
+  {
+    "outputFile": "Composition-ColorectalBxComposition.json",
+    "fshName": "ColorectalBxComposition",
+    "fshType": "Instance",
+    "fshFile": "ClltnBundle_ColorectalBx.fsh",
+    "startLine": 91,
+    "endLine": 118
   },
   {
     "outputFile": "Condition-primary-cancer-condition-breast.json",
