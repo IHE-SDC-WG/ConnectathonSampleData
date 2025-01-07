@@ -86,6 +86,10 @@
         "subject": {
           "reference": "Patient/CPDSPatientB"
         },
+        "encounter": {
+          "reference": "Encounter/CPDSEncounterB"
+        },
+        "effectiveDateTime": "2025-01-06T21:39:30.000Z",
         "result": [
           {
             "reference": "Observation/CPDSCaseSummaryGrouper"

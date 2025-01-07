@@ -56,8 +56,8 @@ Usage: #inline
 * category = LNC#LP7839-6 "Pathology"
 * code = LNC#60568-3 "Pathology Synoptic report"
 * subject = Reference(CPDSPatientA)
-// * encounter = Reference(CPDSEncounter)
-// * effectiveDateTime = "2025-01-06T21:39:30.000Z"
+* encounter = Reference(CPDSEncounterA)
+* effectiveDateTime = "2025-01-06T21:39:30.000Z"
 // * performer = Reference(CPDSPathologistRole)
 // * resultsInterpreter = Reference(CPDSPathologistRole)
 * result[0] = Reference(CPDSCaseSummaryGrouper)
