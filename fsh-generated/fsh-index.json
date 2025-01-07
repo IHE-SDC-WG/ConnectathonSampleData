@@ -8,6 +8,22 @@
     "endLine": 11
   },
   {
+    "outputFile": "Bundle-CPDSBundleA.json",
+    "fshName": "CPDSBundleA",
+    "fshType": "Instance",
+    "fshFile": "CPDS.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Bundle-CPDSBundleB.json",
+    "fshName": "CPDSBundleB",
+    "fshType": "Instance",
+    "fshFile": "CPDS.fsh",
+    "startLine": 34,
+    "endLine": 65
+  },
+  {
     "outputFile": "Bundle-ClltnBundleColorectalBx.json",
     "fshName": "ClltnBundleColorectalBx",
     "fshType": "Instance",

@@ -1,5 +1,7 @@
 Output File                                             Name                                  Type      FSH File                            Lines
 AllergyIntolerance-AllergySulfonamide1.json             AllergySulfonamide1                   Instance  AllergyIntolerance.fsh              1 - 11
+Bundle-CPDSBundleA.json                                 CPDSBundleA                           Instance  CPDS.fsh                            1 - 32
+Bundle-CPDSBundleB.json                                 CPDSBundleB                           Instance  CPDS.fsh                            34 - 65
 Bundle-ClltnBundleColorectalBx.json                     ClltnBundleColorectalBx               Instance  ClltnBundle_ColorectalBx.fsh        1 - 88
 Bundle-MsgBundleColorectalEverything.json               MsgBundleColorectalEverything         Instance  MsgBundle_ColorectalEverything.fsh  1 - 16
 Bundle-Sep2024ConnectathonBundle.json                   Sep2024ConnectathonBundle             Instance  Sep2024Bundle.fsh                   1 - 68
