@@ -92,34 +92,34 @@
         "effectiveDateTime": "2025-01-06T21:39:30.000Z",
         "result": [
           {
-            "reference": "Observation/CPDSCaseSummaryGrouper"
+            "reference": "Observation/CPDSCaseSummaryGrouperB"
           },
           {
-            "reference": "Observation/CPDSClinicalGrouper"
+            "reference": "Observation/CPDSClinicalGrouperB"
           },
           {
-            "reference": "Observation/CPDSSpecimenGrouper"
+            "reference": "Observation/CPDSSpecimenGrouperB"
           },
           {
-            "reference": "Observation/CPDSTumorGrouper"
+            "reference": "Observation/CPDSTumorGrouperB"
           },
           {
-            "reference": "Observation/CPDSMarginsGrouper"
+            "reference": "Observation/CPDSMarginsGrouperB"
           },
           {
-            "reference": "Observation/CPDSLymphNodesGrouper"
+            "reference": "Observation/CPDSLymphNodesGrouperB"
           },
           {
-            "reference": "Observation/CPDSPathologicStageGrouper"
+            "reference": "Observation/CPDSPathologicStageGrouperB"
           },
           {
-            "reference": "Observation/CPDSAdditionalFindingsGrouper"
+            "reference": "Observation/CPDSAdditionalFindingsGrouperB"
           },
           {
-            "reference": "Observation/CPDSSpecialStudiesGrouper"
+            "reference": "Observation/CPDSSpecialStudiesGrouperB"
           },
           {
-            "reference": "Observation/CPDSCommentsGrouper"
+            "reference": "Observation/CPDSCommentsGrouperB"
           }
         ],
         "presentedForm": [
@@ -427,7 +427,7 @@
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSCaseSummaryGrouper",
+        "id": "CPDSCaseSummaryGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -452,13 +452,16 @@
               "system": "http://cap.org/eCC"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSClinicalGrouper",
+        "id": "CPDSClinicalGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -487,15 +490,18 @@
         },
         "hasMember": [
           {
-            "reference": "Observation/CPDSFunctionalStatusObservation"
+            "reference": "Observation/CPDSFunctionalStatusObservationB"
           }
-        ]
+        ],
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
+        }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSClinicalHistoryObservation",
+        "id": "CPDSClinicalHistoryObservationB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/ihe-sdc-ecc-Observation"
@@ -517,13 +523,16 @@
             }
           ]
         },
-        "valueString": ""
+        "valueString": "",
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
+        }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSFunctionalStatusObservation",
+        "id": "CPDSFunctionalStatusObservationB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/ihe-sdc-ecc-Observation"
@@ -553,13 +562,16 @@
               "display": "Urinary 17-ketosteroids increased (10 mg / g creatinine / 24 hours)"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSSpecimenGrouper",
+        "id": "CPDSSpecimenGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -588,15 +600,18 @@
         },
         "hasMember": [
           {
-            "reference": "Observation/CPDSProcedureObservation"
+            "reference": "Observation/CPDSProcedureObservationB"
           }
-        ]
+        ],
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
+        }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSProcedureObservation",
+        "id": "CPDSProcedureObservationB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/ihe-sdc-ecc-Observation"
@@ -626,13 +641,16 @@
               "display": "Percutaneous needle biopsy"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSTumorGrouper",
+        "id": "CPDSTumorGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -661,15 +679,18 @@
         },
         "hasMember": [
           {
-            "reference": "Observation/CPDSHistologicGradeObservation"
+            "reference": "Observation/CPDSHistologicGradeObservationB"
           }
-        ]
+        ],
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
+        }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSHistologicTypeObservation",
+        "id": "CPDSHistologicTypeObservationB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/ihe-sdc-ecc-Observation"
@@ -699,13 +720,16 @@
               "display": "Adrenal cortical carcinoma"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSHistologicGradeObservation",
+        "id": "CPDSHistologicGradeObservationB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/ihe-sdc-ecc-Observation"
@@ -735,13 +759,16 @@
               "display": "Low grade (&lt;= 20 mitoses / 50 high-power fields)"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSMarginsGrouper",
+        "id": "CPDSMarginsGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -767,13 +794,16 @@
               "display": "MARGINS"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSLymphNodesGrouper",
+        "id": "CPDSLymphNodesGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -799,13 +829,16 @@
               "display": "LYMPH NODES"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSPathologicStageGrouper",
+        "id": "CPDSPathologicStageGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -831,13 +864,16 @@
               "display": "PATHOLOGIC STAGE CLASSIFICATION  (pTNM, AJCC 8th Edition) (Note G)"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSAdditionalFindingsGrouper",
+        "id": "CPDSAdditionalFindingsGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -863,13 +899,16 @@
               "display": "ADDITIONAL FINDINGS"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSSpecialStudiesGrouper",
+        "id": "CPDSSpecialStudiesGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -895,13 +934,16 @@
               "display": "SPECIAL STUDIES"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     },
     {
       "resource": {
         "resourceType": "Observation",
-        "id": "CPDSCommentsGrouper",
+        "id": "CPDSCommentsGrouperB",
         "meta": {
           "profile": [
             "http://hl7.org/fhir/us/cancer-reporting/StructureDefinition/us-pathology-grouper-observation"
@@ -927,6 +969,9 @@
               "display": "?Comment(s)"
             }
           ]
+        },
+        "subject": {
+          "reference": "Patient/CPDSPatientB"
         }
       }
     }

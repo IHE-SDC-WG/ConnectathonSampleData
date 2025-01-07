@@ -15,21 +15,21 @@ Usage: #example
 * entry[+].resource = CPDSOncologist
 * entry[+].resource = CPDSPathologist
 // Observations
-* entry[+].resource = CPDSCaseSummaryGrouper
-* entry[+].resource = CPDSClinicalGrouper
-* entry[+].resource = CPDSClinicalHistoryObservation
-* entry[+].resource = CPDSFunctionalStatusObservation
-* entry[+].resource = CPDSSpecimenGrouper
-* entry[+].resource = CPDSProcedureObservation
-* entry[+].resource = CPDSTumorGrouper
-* entry[+].resource = CPDSHistologicTypeObservation
-* entry[+].resource = CPDSHistologicGradeObservation
-* entry[+].resource = CPDSMarginsGrouper
-* entry[+].resource = CPDSLymphNodesGrouper
-* entry[+].resource = CPDSPathologicStageGrouper
-* entry[+].resource = CPDSAdditionalFindingsGrouper
-* entry[+].resource = CPDSSpecialStudiesGrouper
-* entry[+].resource = CPDSCommentsGrouper
+* entry[+].resource = CPDSCaseSummaryGrouperA
+* entry[+].resource = CPDSClinicalGrouperA
+* entry[+].resource = CPDSClinicalHistoryObservationA
+* entry[+].resource = CPDSFunctionalStatusObservationA
+* entry[+].resource = CPDSSpecimenGrouperA
+* entry[+].resource = CPDSProcedureObservationA
+* entry[+].resource = CPDSTumorGrouperA
+* entry[+].resource = CPDSHistologicTypeObservationA
+* entry[+].resource = CPDSHistologicGradeObservationA
+* entry[+].resource = CPDSMarginsGrouperA
+* entry[+].resource = CPDSLymphNodesGrouperA
+* entry[+].resource = CPDSPathologicStageGrouperA
+* entry[+].resource = CPDSAdditionalFindingsGrouperA
+* entry[+].resource = CPDSSpecialStudiesGrouperA
+* entry[+].resource = CPDSCommentsGrouperA
 
 Instance: CPDSBundleB
 InstanceOf: Bundle
@@ -48,21 +48,21 @@ Usage: #example
 * entry[+].resource = CPDSOncologist
 * entry[+].resource = CPDSPathologist
 // Observations
-* entry[+].resource = CPDSCaseSummaryGrouper
-* entry[+].resource = CPDSClinicalGrouper
-* entry[+].resource = CPDSClinicalHistoryObservation
-* entry[+].resource = CPDSFunctionalStatusObservation
-* entry[+].resource = CPDSSpecimenGrouper
-* entry[+].resource = CPDSProcedureObservation
-* entry[+].resource = CPDSTumorGrouper
-* entry[+].resource = CPDSHistologicTypeObservation
-* entry[+].resource = CPDSHistologicGradeObservation
-* entry[+].resource = CPDSMarginsGrouper
-* entry[+].resource = CPDSLymphNodesGrouper
-* entry[+].resource = CPDSPathologicStageGrouper
-* entry[+].resource = CPDSAdditionalFindingsGrouper
-* entry[+].resource = CPDSSpecialStudiesGrouper
-* entry[+].resource = CPDSCommentsGrouper
+* entry[+].resource = CPDSCaseSummaryGrouperB
+* entry[+].resource = CPDSClinicalGrouperB
+* entry[+].resource = CPDSClinicalHistoryObservationB
+* entry[+].resource = CPDSFunctionalStatusObservationB
+* entry[+].resource = CPDSSpecimenGrouperB
+* entry[+].resource = CPDSProcedureObservationB
+* entry[+].resource = CPDSTumorGrouperB
+* entry[+].resource = CPDSHistologicTypeObservationB
+* entry[+].resource = CPDSHistologicGradeObservationB
+* entry[+].resource = CPDSMarginsGrouperB
+* entry[+].resource = CPDSLymphNodesGrouperB
+* entry[+].resource = CPDSPathologicStageGrouperB
+* entry[+].resource = CPDSAdditionalFindingsGrouperB
+* entry[+].resource = CPDSSpecialStudiesGrouperB
+* entry[+].resource = CPDSCommentsGrouperB
 
 Instance: CPDSPathologyLab
 InstanceOf: Organization
